@@ -42,7 +42,6 @@ class ShoppingCart():
                 else:
                     print(f'price already set for {item.name}')
                 if item.description == 'none' and newDesc is not None:
-                    print(f'new description is: {newDesc}')
                     item.description = newDesc
                 else:
                     print(f'description already set for {item.name}')
